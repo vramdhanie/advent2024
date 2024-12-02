@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "advent2024"
+version = "0.1.0"
+description = "Solutions to the Advent of Code 2024"
+authors = ["Vincent Ramdhanie <vramdhanie@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
