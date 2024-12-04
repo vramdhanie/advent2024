@@ -1,6 +1,7 @@
 import sys
 from advent2024.day02 import day02
 from advent2024.day01 import day01
+from advent2024.day03 import day03
 from advent2024.common.model import Base
 import argparse
 
@@ -38,6 +39,8 @@ def main():
             day01.day01(Base(test=test_mode, puzzle=puzzle))
         case 2:
             day02.day02(Base(test=test_mode, puzzle=puzzle))
+        case 3:
+            day03.day03(Base(test=test_mode, puzzle=puzzle))
         case _:
             print(f"Day {day} is not implemented yet.")
 
