@@ -21,6 +21,6 @@ To set up the project and run the code using Poetry, follow these steps:
 
 Replace `<day>`, `<puzzle>`, and `<run>` with the appropriate values for the challenge you want to run. For example:
 
-    ```bash
-    poetry run python main.py --day 1 --puzzle 1 --run test
-    ```
+```bash
+poetry run python main.py --day 1 --puzzle 1 --run test
+```

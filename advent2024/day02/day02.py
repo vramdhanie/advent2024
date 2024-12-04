@@ -99,7 +99,7 @@ def puzzle02(data: list[list[int]], test: bool):
     print("Day 02 Puzzle 02 Done")
 
 
-def day02(input: Input):
+def run(input: Input):
     filename = "test.txt" if input.test else "data.txt"
 
     data = read_data(filename)

@@ -51,7 +51,7 @@ def puzzle02(data: str, test: bool):
     print("Day 03 Puzzle 02 Done")
 
 
-def day03(input: Input):
+def run(input: Input):
     filename = "test.txt" if input.test else "data.txt"
 
     with open(os.path.join(os.path.dirname(__file__), filename), "r") as file:
