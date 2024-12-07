@@ -1,10 +1,10 @@
-import sys
 from advent2024.day02 import day02
 from advent2024.day01 import day01
 from advent2024.day03 import day03
 from advent2024.day04 import day04
 from advent2024.day05 import day05
 from advent2024.day06 import day06
+from advent2024.day07 import day07
 from advent2024.common.model import Base
 import argparse
 
@@ -50,6 +50,8 @@ def main():
             day05.run(Base(test=test_mode, puzzle=puzzle))
         case 6:
             day06.run(Base(test=test_mode, puzzle=puzzle))
+        case 7:
+            day07.run(Base(test=test_mode, puzzle=puzzle))
         case _:
             print(f"Day {day} is not implemented yet.")
 
